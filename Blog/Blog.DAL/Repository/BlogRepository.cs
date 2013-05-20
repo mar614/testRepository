@@ -23,7 +23,7 @@ namespace Blog.DAL.Repository
         public void AddPost(Post post)
         {
             if (post.Author == null || post.Author == "")
-                throw new ExecutionEngineException();
+                throw new System.IO.InvalidDataException();
             _context.Posts.Add(post);
             _context.SaveChanges();
         }
@@ -42,7 +42,7 @@ namespace Blog.DAL.Repository
         public void AddComment(Comment comment)
         {
             if (comment.PostId < 0)
-                throw new ExecutionEngineException();
+                throw new System.IO.InvalidDataException();
             _context.Comments.Add(comment);
             _context.SaveChanges();
 

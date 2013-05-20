@@ -78,11 +78,11 @@ namespace Blog.DAL.Tests
             // act
             var result = repository.GetAllPosts();
             // assert
-            Assert.AreEqual(2, result.Count());            
+            Assert.AreEqual(2, result.Count());
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ExecutionEngineException))]
+        [ExpectedException(typeof(InvalidDataException))]
         public void GetAllPost_AddPostWithoutAuthor_ValidatePost()
         {
             // arrange
