@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="135e3391-66ba-4b75-8667-9ac977559c0c" name="Marcin@MARCIN-KOMPUTER 2013-05-20 21:44:47" runUser="Marcin-Komputer\Marcin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="31046817-227f-4161-9a97-5d34efa999fb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Marcin_MARCIN-KOMPUTER 2013-05-20 21_44_47">
+      <DeploymentItem filename="C:\Users\Marcin\Desktop\Blog\packages\DbTestHelpers\YamlDotNet.Core.dll" />
+      <DeploymentItem filename="C:\Users\Marcin\Desktop\Blog\Blog.DAL\bin\Debug\Blog.DAL.dll" />
+      <DeploymentItem filename="C:\Users\Marcin\Desktop\Blog\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Marcin\Desktop\Blog\packages\DbTestHelpers\YamlDotNet.RepresentationModel.dll" />
+      <DeploymentItem filename="C:\Users\Marcin\Desktop\Blog\packages\DbTestHelpers\TDD.DbTestHelpers.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-20T21:44:47.0132546+02:00" queuing="2013-05-20T21:44:49.0913796+02:00" start="2013-05-20T21:44:49.2945046+02:00" finish="2013-05-20T21:45:27.3970437+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" error="0" failed="4" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetAllPost_OnePostInDb_ReturnOnePost" storage="c:\users\marcin\desktop\blog\blog.dal.tests\bin\debug\blog.dal.tests.dll" id="8eb3fc89-a933-3141-9fc4-10d31ead6588">
+      <Execution id="406aacd6-b982-4a13-956c-3b9ea996da4e" />
+      <TestMethod codeBase="C:/Users/Marcin/Desktop/Blog/Blog.DAL.Tests/bin/Debug/Blog.DAL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Blog.DAL.Tests.RepositoryTests, Blog.DAL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllPost_OnePostInDb_ReturnOnePost" />
+    </UnitTest>
+    <UnitTest name="GetAllPost_AddPost_TwoPostsExpected" storage="c:\users\marcin\desktop\blog\blog.dal.tests\bin\debug\blog.dal.tests.dll" id="a27eb2de-2f8f-8b86-c856-8e6bc5b885db">
+      <Execution id="88816d57-61d9-412c-9bbd-28a803db08f7" />
+      <TestMethod codeBase="C:/Users/Marcin/Desktop/Blog/Blog.DAL.Tests/bin/Debug/Blog.DAL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Blog.DAL.Tests.RepositoryTests, Blog.DAL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllPost_AddPost_TwoPostsExpected" />
+    </UnitTest>
+    <UnitTest name="GetAllPost_AddPostWithoutAuthor_ValidatePost" storage="c:\users\marcin\desktop\blog\blog.dal.tests\bin\debug\blog.dal.tests.dll" id="76ad8f6a-4818-5920-1b84-c94b13a5c852">
+      <Execution id="a8479c64-829a-411e-b9be-21f130563ecd" />
+      <TestMethod codeBase="C:/Users/Marcin/Desktop/Blog/Blog.DAL.Tests/bin/Debug/Blog.DAL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Blog.DAL.Tests.RepositoryTests, Blog.DAL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllPost_AddPostWithoutAuthor_ValidatePost" />
+    </UnitTest>
+    <UnitTest name="GetComments_AddPostAndComment_OneCommentExpected" storage="c:\users\marcin\desktop\blog\blog.dal.tests\bin\debug\blog.dal.tests.dll" id="e4e80f04-5d91-2d87-768c-10132d8bd0cb">
+      <Execution id="bf56a219-1990-44e6-8b5b-2a262cf29562" />
+      <TestMethod codeBase="C:/Users/Marcin/Desktop/Blog/Blog.DAL.Tests/bin/Debug/Blog.DAL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Blog.DAL.Tests.RepositoryTests, Blog.DAL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetComments_AddPostAndComment_OneCommentExpected" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8eb3fc89-a933-3141-9fc4-10d31ead6588" executionId="406aacd6-b982-4a13-956c-3b9ea996da4e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a27eb2de-2f8f-8b86-c856-8e6bc5b885db" executionId="88816d57-61d9-412c-9bbd-28a803db08f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76ad8f6a-4818-5920-1b84-c94b13a5c852" executionId="a8479c64-829a-411e-b9be-21f130563ecd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4e80f04-5d91-2d87-768c-10132d8bd0cb" executionId="bf56a219-1990-44e6-8b5b-2a262cf29562" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="406aacd6-b982-4a13-956c-3b9ea996da4e" testId="8eb3fc89-a933-3141-9fc4-10d31ead6588" testName="GetAllPost_OnePostInDb_ReturnOnePost" computerName="MARCIN-KOMPUTER" duration="00:00:08.3769802" startTime="2013-05-20T21:44:49.5132546+02:00" endTime="2013-05-20T21:44:59.2720437+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="406aacd6-b982-4a13-956c-3b9ea996da4e">
+      <Output>
+        <DebugTrace>Constr
+SetUp
+Applying fixtures
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Initialization method Blog.DAL.Tests.RepositoryTests.BaseSetUp threw exception. System.Reflection.TargetInvocationException: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---&gt; System.InvalidOperationException: The model backing the 'BlogContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269)..</Message>
+          <StackTrace>    at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.&lt;&gt;c__DisplayClass8.&lt;PerformDatabaseInitialization&gt;b__6()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.&lt;InitializeDatabase&gt;b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable&lt;TResult&gt;.GetEnumerator()
+   at TDD.DbTestHelpers.EF.EfExtensions.ClearTable[TEntity](DbSet`1 table) in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\EF\EfExtensions.cs:line 13
+ --- End of inner exception stack trace ---
+    at System.RuntimeMethodHandle._InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, SignatureStruct&amp; sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at TDD.DbTestHelpers.Helpers.FileHelper.ClearTables(Type fixtureType, DbContext context) in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Helpers\FileHelper.cs:line 30
+   at TDD.DbTestHelpers.Helpers.FileHelper.ClearTables[TFixtureType](DbContext context) in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Helpers\FileHelper.cs:line 19
+   at TDD.DbTestHelpers.Yaml.YamlDbFixture`2.PrepareDatabase() in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Yaml\YamlDbFixture.cs:line 33
+   at TDD.DbTestHelpers.Core.DbBaseTest`1.ApplyFixtures() in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Core\DbBaseTest.cs:line 44
+   at TDD.DbTestHelpers.Core.DbBaseTest`1.BaseSetUp() in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Core\DbBaseTest.cs:line 23
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="88816d57-61d9-412c-9bbd-28a803db08f7" testId="a27eb2de-2f8f-8b86-c856-8e6bc5b885db" testName="GetAllPost_AddPost_TwoPostsExpected" computerName="MARCIN-KOMPUTER" duration="00:00:03.4991176" startTime="2013-05-20T21:44:59.2925515+02:00" endTime="2013-05-20T21:45:02.8032937+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="88816d57-61d9-412c-9bbd-28a803db08f7">
+      <Output>
+        <DebugTrace>Constr
+SetUp
+Applying fixtures
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Initialization method Blog.DAL.Tests.RepositoryTests.BaseSetUp threw exception. System.Reflection.TargetInvocationException: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---&gt; System.InvalidOperationException: The model backing the 'BlogContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269)..</Message>
+          <StackTrace>    at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.&lt;&gt;c__DisplayClass8.&lt;PerformDatabaseInitialization&gt;b__6()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.&lt;InitializeDatabase&gt;b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable&lt;TResult&gt;.GetEnumerator()
+   at TDD.DbTestHelpers.EF.EfExtensions.ClearTable[TEntity](DbSet`1 table) in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\EF\EfExtensions.cs:line 13
+ --- End of inner exception stack trace ---
+    at System.RuntimeMethodHandle._InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, SignatureStruct&amp; sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at TDD.DbTestHelpers.Helpers.FileHelper.ClearTables(Type fixtureType, DbContext context) in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Helpers\FileHelper.cs:line 30
+   at TDD.DbTestHelpers.Helpers.FileHelper.ClearTables[TFixtureType](DbContext context) in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Helpers\FileHelper.cs:line 19
+   at TDD.DbTestHelpers.Yaml.YamlDbFixture`2.PrepareDatabase() in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Yaml\YamlDbFixture.cs:line 33
+   at TDD.DbTestHelpers.Core.DbBaseTest`1.ApplyFixtures() in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Core\DbBaseTest.cs:line 44
+   at TDD.DbTestHelpers.Core.DbBaseTest`1.BaseSetUp() in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Core\DbBaseTest.cs:line 23
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a8479c64-829a-411e-b9be-21f130563ecd" testId="76ad8f6a-4818-5920-1b84-c94b13a5c852" testName="GetAllPost_AddPostWithoutAuthor_ValidatePost" computerName="MARCIN-KOMPUTER" duration="00:00:21.5681952" startTime="2013-05-20T21:45:02.8218484+02:00" endTime="2013-05-20T21:45:24.3228249+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8479c64-829a-411e-b9be-21f130563ecd">
+      <Output>
+        <DebugTrace>Constr
+SetUp
+Applying fixtures
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Initialization method Blog.DAL.Tests.RepositoryTests.BaseSetUp threw exception. System.Reflection.TargetInvocationException: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---&gt; System.InvalidOperationException: The model backing the 'BlogContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269)..</Message>
+          <StackTrace>    at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.&lt;&gt;c__DisplayClass8.&lt;PerformDatabaseInitialization&gt;b__6()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.&lt;InitializeDatabase&gt;b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable&lt;TResult&gt;.GetEnumerator()
+   at TDD.DbTestHelpers.EF.EfExtensions.ClearTable[TEntity](DbSet`1 table) in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\EF\EfExtensions.cs:line 13
+ --- End of inner exception stack trace ---
+    at System.RuntimeMethodHandle._InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, SignatureStruct&amp; sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at TDD.DbTestHelpers.Helpers.FileHelper.ClearTables(Type fixtureType, DbContext context) in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Helpers\FileHelper.cs:line 30
+   at TDD.DbTestHelpers.Helpers.FileHelper.ClearTables[TFixtureType](DbContext context) in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Helpers\FileHelper.cs:line 19
+   at TDD.DbTestHelpers.Yaml.YamlDbFixture`2.PrepareDatabase() in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Yaml\YamlDbFixture.cs:line 33
+   at TDD.DbTestHelpers.Core.DbBaseTest`1.ApplyFixtures() in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Core\DbBaseTest.cs:line 44
+   at TDD.DbTestHelpers.Core.DbBaseTest`1.BaseSetUp() in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Core\DbBaseTest.cs:line 23
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bf56a219-1990-44e6-8b5b-2a262cf29562" testId="e4e80f04-5d91-2d87-768c-10132d8bd0cb" testName="GetComments_AddPostAndComment_OneCommentExpected" computerName="MARCIN-KOMPUTER" duration="00:00:02.7906954" startTime="2013-05-20T21:45:24.3355203+02:00" endTime="2013-05-20T21:45:27.1402078+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf56a219-1990-44e6-8b5b-2a262cf29562">
+      <Output>
+        <DebugTrace>Constr
+SetUp
+Applying fixtures
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Initialization method Blog.DAL.Tests.RepositoryTests.BaseSetUp threw exception. System.Reflection.TargetInvocationException: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---&gt; System.InvalidOperationException: The model backing the 'BlogContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269)..</Message>
+          <StackTrace>    at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.&lt;&gt;c__DisplayClass8.&lt;PerformDatabaseInitialization&gt;b__6()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.&lt;InitializeDatabase&gt;b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable&lt;TResult&gt;.GetEnumerator()
+   at TDD.DbTestHelpers.EF.EfExtensions.ClearTable[TEntity](DbSet`1 table) in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\EF\EfExtensions.cs:line 13
+ --- End of inner exception stack trace ---
+    at System.RuntimeMethodHandle._InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, SignatureStruct&amp; sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at TDD.DbTestHelpers.Helpers.FileHelper.ClearTables(Type fixtureType, DbContext context) in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Helpers\FileHelper.cs:line 30
+   at TDD.DbTestHelpers.Helpers.FileHelper.ClearTables[TFixtureType](DbContext context) in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Helpers\FileHelper.cs:line 19
+   at TDD.DbTestHelpers.Yaml.YamlDbFixture`2.PrepareDatabase() in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Yaml\YamlDbFixture.cs:line 33
+   at TDD.DbTestHelpers.Core.DbBaseTest`1.ApplyFixtures() in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Core\DbBaseTest.cs:line 44
+   at TDD.DbTestHelpers.Core.DbBaseTest`1.BaseSetUp() in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Core\DbBaseTest.cs:line 23
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

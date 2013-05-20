@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="787f5928-2731-434d-baae-d1751596ea67" name="Marcin@MARCIN-KOMPUTER 2013-05-20 22:26:53" runUser="Marcin-Komputer\Marcin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="31046817-227f-4161-9a97-5d34efa999fb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Marcin_MARCIN-KOMPUTER 2013-05-20 22_26_53">
+      <DeploymentItem filename="C:\Users\Marcin\Desktop\Blog\packages\DbTestHelpers\YamlDotNet.Core.dll" />
+      <DeploymentItem filename="C:\Users\Marcin\Desktop\Blog\Blog.DAL\bin\Debug\Blog.DAL.dll" />
+      <DeploymentItem filename="C:\Users\Marcin\Desktop\Blog\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Marcin\Desktop\Blog\packages\DbTestHelpers\YamlDotNet.RepresentationModel.dll" />
+      <DeploymentItem filename="C:\Users\Marcin\Desktop\Blog\packages\DbTestHelpers\TDD.DbTestHelpers.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-20T22:26:53.0313603+02:00" queuing="2013-05-20T22:26:55.0538212+02:00" start="2013-05-20T22:26:55.2715947+02:00" finish="2013-05-20T22:27:10.8277447+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetAllPost_OnePostInDb_ReturnOnePost" storage="c:\users\marcin\desktop\blog\blog.dal.tests\bin\debug\blog.dal.tests.dll" id="8eb3fc89-a933-3141-9fc4-10d31ead6588">
+      <Execution id="46d709a8-5845-4217-b24c-0eef41dd9ec2" />
+      <TestMethod codeBase="C:/Users/Marcin/Desktop/Blog/Blog.DAL.Tests/bin/Debug/Blog.DAL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Blog.DAL.Tests.RepositoryTests, Blog.DAL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllPost_OnePostInDb_ReturnOnePost" />
+    </UnitTest>
+    <UnitTest name="GetAllPost_AddPost_TwoPostsExpected" storage="c:\users\marcin\desktop\blog\blog.dal.tests\bin\debug\blog.dal.tests.dll" id="a27eb2de-2f8f-8b86-c856-8e6bc5b885db">
+      <Execution id="1cf72288-5e4d-40b8-8e09-6e39815d25bd" />
+      <TestMethod codeBase="C:/Users/Marcin/Desktop/Blog/Blog.DAL.Tests/bin/Debug/Blog.DAL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Blog.DAL.Tests.RepositoryTests, Blog.DAL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllPost_AddPost_TwoPostsExpected" />
+    </UnitTest>
+    <UnitTest name="GetComments_AddPostAndComment_OneCommentExpected" storage="c:\users\marcin\desktop\blog\blog.dal.tests\bin\debug\blog.dal.tests.dll" id="e4e80f04-5d91-2d87-768c-10132d8bd0cb">
+      <Execution id="c66c3c0a-2258-4906-9cab-581ba917c098" />
+      <TestMethod codeBase="C:/Users/Marcin/Desktop/Blog/Blog.DAL.Tests/bin/Debug/Blog.DAL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Blog.DAL.Tests.RepositoryTests, Blog.DAL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetComments_AddPostAndComment_OneCommentExpected" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8eb3fc89-a933-3141-9fc4-10d31ead6588" executionId="46d709a8-5845-4217-b24c-0eef41dd9ec2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a27eb2de-2f8f-8b86-c856-8e6bc5b885db" executionId="1cf72288-5e4d-40b8-8e09-6e39815d25bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4e80f04-5d91-2d87-768c-10132d8bd0cb" executionId="c66c3c0a-2258-4906-9cab-581ba917c098" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="46d709a8-5845-4217-b24c-0eef41dd9ec2" testId="8eb3fc89-a933-3141-9fc4-10d31ead6588" testName="GetAllPost_OnePostInDb_ReturnOnePost" computerName="MARCIN-KOMPUTER" duration="00:00:03.9154252" startTime="2013-05-20T22:26:55.4776493+02:00" endTime="2013-05-20T22:27:01.1181317+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46d709a8-5845-4217-b24c-0eef41dd9ec2">
+      <Output>
+        <DebugTrace>Constr
+SetUp
+Applying fixtures
+C:\Users\Marcin\Desktop\Blog\Blog.DAL.Tests\bin\Debug\Fixtures\posts.yml
+FixtureSetUp
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1cf72288-5e4d-40b8-8e09-6e39815d25bd" testId="a27eb2de-2f8f-8b86-c856-8e6bc5b885db" testName="GetAllPost_AddPost_TwoPostsExpected" computerName="MARCIN-KOMPUTER" duration="00:00:00.1504610" startTime="2013-05-20T22:27:01.1331705+02:00" endTime="2013-05-20T22:27:01.3190071+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1cf72288-5e4d-40b8-8e09-6e39815d25bd">
+      <Output>
+        <DebugTrace>Constr
+SetUp
+Applying fixtures
+C:\Users\Marcin\Desktop\Blog\Blog.DAL.Tests\bin\Debug\Fixtures\posts.yml
+FixtureSetUp
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c66c3c0a-2258-4906-9cab-581ba917c098" testId="e4e80f04-5d91-2d87-768c-10132d8bd0cb" testName="GetComments_AddPostAndComment_OneCommentExpected" computerName="MARCIN-KOMPUTER" duration="00:00:08.5121620" startTime="2013-05-20T22:27:01.3415653+02:00" endTime="2013-05-20T22:27:10.5763767+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c66c3c0a-2258-4906-9cab-581ba917c098">
+      <Output>
+        <DebugTrace>Constr
+SetUp
+Applying fixtures
+C:\Users\Marcin\Desktop\Blog\Blog.DAL.Tests\bin\Debug\Fixtures\posts.yml
+FixtureSetUp
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

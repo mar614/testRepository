@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\Blog\Blog\Blog.DAL\bin\Debug\Blog.DAL.dll
+C:\Users\Administrator\Desktop\Blog\Blog\Blog.DAL\bin\Debug\Blog.DAL.pdb
+C:\Users\Administrator\Desktop\Blog\Blog\Blog.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\Blog\Blog\Blog.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\Blog\Blog\Blog.DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Blog\Blog\Blog.DAL\obj\Debug\Blog.DAL.dll
+C:\Users\Administrator\Desktop\Blog\Blog\Blog.DAL\obj\Debug\Blog.DAL.pdb
+C:\Users\Marcin\Desktop\Blog\Blog.DAL\bin\Debug\Blog.DAL.dll
+C:\Users\Marcin\Desktop\Blog\Blog.DAL\bin\Debug\Blog.DAL.pdb
+C:\Users\Marcin\Desktop\Blog\Blog.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Marcin\Desktop\Blog\Blog.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Marcin\Desktop\Blog\Blog.DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Marcin\Desktop\Blog\Blog.DAL\obj\Debug\Blog.DAL.dll
+C:\Users\Marcin\Desktop\Blog\Blog.DAL\obj\Debug\Blog.DAL.pdb

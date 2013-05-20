@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4e839ada-491e-4b37-a77a-a5c8f1225092" name="Marcin@MARCIN-KOMPUTER 2013-05-20 22:17:50" runUser="Marcin-Komputer\Marcin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="31046817-227f-4161-9a97-5d34efa999fb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Marcin_MARCIN-KOMPUTER 2013-05-20 22_17_50">
+      <DeploymentItem filename="C:\Users\Marcin\Desktop\Blog\packages\DbTestHelpers\YamlDotNet.Core.dll" />
+      <DeploymentItem filename="C:\Users\Marcin\Desktop\Blog\Blog.DAL\bin\Debug\Blog.DAL.dll" />
+      <DeploymentItem filename="C:\Users\Marcin\Desktop\Blog\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Marcin\Desktop\Blog\packages\DbTestHelpers\YamlDotNet.RepresentationModel.dll" />
+      <DeploymentItem filename="C:\Users\Marcin\Desktop\Blog\packages\DbTestHelpers\TDD.DbTestHelpers.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-20T22:17:50.7472752+02:00" queuing="2013-05-20T22:17:51.0285252+02:00" start="2013-05-20T22:17:51.0910252+02:00" finish="2013-05-20T22:17:54.6769627+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetAllPost_OnePostInDb_ReturnOnePost" storage="c:\users\marcin\desktop\blog\blog.dal.tests\bin\debug\blog.dal.tests.dll" id="8eb3fc89-a933-3141-9fc4-10d31ead6588">
+      <Execution id="1e0f16ef-843e-4efc-8514-a93018b09c2c" />
+      <TestMethod codeBase="C:/Users/Marcin/Desktop/Blog/Blog.DAL.Tests/bin/Debug/Blog.DAL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Blog.DAL.Tests.RepositoryTests, Blog.DAL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllPost_OnePostInDb_ReturnOnePost" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8eb3fc89-a933-3141-9fc4-10d31ead6588" executionId="1e0f16ef-843e-4efc-8514-a93018b09c2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1e0f16ef-843e-4efc-8514-a93018b09c2c" testId="8eb3fc89-a933-3141-9fc4-10d31ead6588" testName="GetAllPost_OnePostInDb_ReturnOnePost" computerName="MARCIN-KOMPUTER" duration="00:00:03.1672840" startTime="2013-05-20T22:17:51.1535252+02:00" endTime="2013-05-20T22:17:54.6242283+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e0f16ef-843e-4efc-8514-a93018b09c2c">
+      <Output>
+        <StdOut>Scalar [anchor = , tag = , value = PostId, style = Plain, isPlainImplicit = True, isQuotedImplicit = False]</StdOut>
+        <DebugTrace>Constr
+SetUp
+Applying fixtures
+C:\Users\Marcin\Desktop\Blog\Blog.DAL.Tests\bin\Debug\Fixtures\posts.yml
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Initialization method Blog.DAL.Tests.RepositoryTests.BaseSetUp threw exception. System.Exception: System.Exception: Cannot deserialize YAML file. See inner exception. ---&gt; System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---&gt; System.Runtime.Serialization.SerializationException: Property 'PostId' not found on type 'Blog.DAL.Model.Post'.</Message>
+          <StackTrace>    at YamlDotNet.RepresentationModel.Serialization.YamlSerializer.DeserializeProperties(EventReader reader, Type type, DeserializationContext context) in d:\antoine\yamldotnet_v1\YamlDotNet.RepresentationModel\Serialization\YamlSerializer.cs:line 1133
+   at YamlDotNet.RepresentationModel.Serialization.YamlSerializer.DeserializeValueNotNull(EventReader reader, DeserializationContext context, INodeEvent nodeEvent, Type expectedType) in d:\antoine\yamldotnet_v1\YamlDotNet.RepresentationModel\Serialization\YamlSerializer.cs:line 831
+   at YamlDotNet.RepresentationModel.Serialization.YamlSerializer.DeserializeValue(EventReader reader, Type expectedType, DeserializationContext context) in d:\antoine\yamldotnet_v1\YamlDotNet.RepresentationModel\Serialization\YamlSerializer.cs:line 791
+   at YamlDotNet.RepresentationModel.Serialization.YamlSerializer.DeserializeProperties(EventReader reader, Type type, DeserializationContext context) in d:\antoine\yamldotnet_v1\YamlDotNet.RepresentationModel\Serialization\YamlSerializer.cs:line 1090
+   at YamlDotNet.RepresentationModel.Serialization.YamlSerializer.DeserializeValueNotNull(EventReader reader, DeserializationContext context, INodeEvent nodeEvent, Type expectedType) in d:\antoine\yamldotnet_v1\YamlDotNet.RepresentationModel\Serialization\YamlSerializer.cs:line 831
+   at YamlDotNet.RepresentationModel.Serialization.YamlSerializer.DeserializeValue(EventReader reader, Type expectedType, DeserializationContext context) in d:\antoine\yamldotnet_v1\YamlDotNet.RepresentationModel\Serialization\YamlSerializer.cs:line 791
+   at YamlDotNet.RepresentationModel.Serialization.YamlSerializer.DeserializeProperties(EventReader reader, Type type, DeserializationContext context) in d:\antoine\yamldotnet_v1\YamlDotNet.RepresentationModel\Serialization\YamlSerializer.cs:line 1129
+   at YamlDotNet.RepresentationModel.Serialization.YamlSerializer.DeserializeValueNotNull(EventReader reader, DeserializationContext context, INodeEvent nodeEvent, Type expectedType) in d:\antoine\yamldotnet_v1\YamlDotNet.RepresentationModel\Serialization\YamlSerializer.cs:line 831
+   at YamlDotNet.RepresentationModel.Serialization.YamlSerializer.DeserializeValue(EventReader reader, Type expectedType, DeserializationContext context) in d:\antoine\yamldotnet_v1\YamlDotNet.RepresentationModel\Serialization\YamlSerializer.cs:line 791
+   at YamlDotNet.RepresentationModel.Serialization.YamlSerializer.Deserialize(EventReader reader, DeserializationOptions options, IDeserializationContext&amp; context) in d:\antoine\yamldotnet_v1\YamlDotNet.RepresentationModel\Serialization\YamlSerializer.cs:line 755
+   at YamlDotNet.RepresentationModel.Serialization.YamlSerializer.Deserialize(TextReader input, DeserializationOptions options) in d:\antoine\yamldotnet_v1\YamlDotNet.RepresentationModel\Serialization\YamlSerializer.cs:line 694
+   at YamlDotNet.RepresentationModel.Serialization.YamlSerializer`1.Deserialize(TextReader input) in d:\antoine\yamldotnet_v1\YamlDotNet.RepresentationModel\Serialization\YamlSerializer.cs:line 1236
+ --- End of inner exception stack trace ---
+    at System.RuntimeMethodHandle._InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, SignatureStruct&amp; sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at TDD.DbTestHelpers.Helpers.FileHelper.GetFixutresFromYaml(Type fixtureType, String yamlFolderName, IEnumerable`1 yamlFullFilesNames) in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Helpers\FileHelper.cs:line 69
+ --- End of inner exception stack trace ---
+    at TDD.DbTestHelpers.Helpers.FileHelper.GetFixutresFromYaml(Type fixtureType, String yamlFolderName, IEnumerable`1 yamlFullFilesNames) in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Helpers\FileHelper.cs:line 73
+   at TDD.DbTestHelpers.Helpers.FileHelper.FillFixturesFileFiles(Type fixtureType, DbContext context, String yamlFolderName, IEnumerable`1 yamlFullFilesNames) in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Helpers\FileHelper.cs:line 42
+   at TDD.DbTestHelpers.Helpers.FileHelper.FillFixturesFileFiles[TFixtureType](DbContext context, String yamlFolderName, IEnumerable`1 yamlFilesNames) in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Helpers\FileHelper.cs:line 37
+   at TDD.DbTestHelpers.Yaml.YamlDbFixture`2.FillFixtures() in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Yaml\YamlDbFixture.cs:line 38
+   at TDD.DbTestHelpers.Core.DbBaseTest`1.ApplyFixtures() in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Core\DbBaseTest.cs:line 45
+   at TDD.DbTestHelpers.Core.DbBaseTest`1.BaseSetUp() in E:\Studia\_Asystentura\6.sem_letni_2012-2013\SAB\lab\TeamCity\TDD.Blog-master\TDD.DbTestHelpers\Core\DbBaseTest.cs:line 23
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

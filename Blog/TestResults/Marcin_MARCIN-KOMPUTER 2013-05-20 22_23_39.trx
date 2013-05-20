@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="fb5bb79d-c1ba-4a02-8527-898b3b6bcba6" name="Marcin@MARCIN-KOMPUTER 2013-05-20 22:23:39" runUser="Marcin-Komputer\Marcin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="31046817-227f-4161-9a97-5d34efa999fb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Marcin_MARCIN-KOMPUTER 2013-05-20 22_23_39">
+      <DeploymentItem filename="C:\Users\Marcin\Desktop\Blog\packages\DbTestHelpers\YamlDotNet.Core.dll" />
+      <DeploymentItem filename="C:\Users\Marcin\Desktop\Blog\Blog.DAL\bin\Debug\Blog.DAL.dll" />
+      <DeploymentItem filename="C:\Users\Marcin\Desktop\Blog\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Marcin\Desktop\Blog\packages\DbTestHelpers\YamlDotNet.RepresentationModel.dll" />
+      <DeploymentItem filename="C:\Users\Marcin\Desktop\Blog\packages\DbTestHelpers\TDD.DbTestHelpers.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-20T22:23:39.6618047+02:00" queuing="2013-05-20T22:23:41.8297734+02:00" start="2013-05-20T22:23:42.0543828+02:00" finish="2013-05-20T22:24:03.5651250+02:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="4" executed="3" passed="2" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="1" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="MARCIN-KOMPUTER" outcome="Error" timestamp="2013-05-20T22:24:03.5573125+02:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetAllPost_OnePostInDb_ReturnOnePost" storage="c:\users\marcin\desktop\blog\blog.dal.tests\bin\debug\blog.dal.tests.dll" id="8eb3fc89-a933-3141-9fc4-10d31ead6588">
+      <Execution id="b9c82d89-7fec-41b1-92d5-492ffddf0385" />
+      <TestMethod codeBase="C:/Users/Marcin/Desktop/Blog/Blog.DAL.Tests/bin/Debug/Blog.DAL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Blog.DAL.Tests.RepositoryTests, Blog.DAL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllPost_OnePostInDb_ReturnOnePost" />
+    </UnitTest>
+    <UnitTest name="GetAllPost_AddPost_TwoPostsExpected" storage="c:\users\marcin\desktop\blog\blog.dal.tests\bin\debug\blog.dal.tests.dll" id="a27eb2de-2f8f-8b86-c856-8e6bc5b885db">
+      <Execution id="51a8c264-5100-420d-81dc-20137513bb03" />
+      <TestMethod codeBase="C:/Users/Marcin/Desktop/Blog/Blog.DAL.Tests/bin/Debug/Blog.DAL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Blog.DAL.Tests.RepositoryTests, Blog.DAL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllPost_AddPost_TwoPostsExpected" />
+    </UnitTest>
+    <UnitTest name="GetAllPost_AddPostWithoutAuthor_ValidatePost" storage="c:\users\marcin\desktop\blog\blog.dal.tests\bin\debug\blog.dal.tests.dll" id="76ad8f6a-4818-5920-1b84-c94b13a5c852">
+      <Execution id="8851466c-3a2d-4242-b537-39c5739a8243" />
+      <TestMethod codeBase="C:/Users/Marcin/Desktop/Blog/Blog.DAL.Tests/bin/Debug/Blog.DAL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Blog.DAL.Tests.RepositoryTests, Blog.DAL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllPost_AddPostWithoutAuthor_ValidatePost" />
+    </UnitTest>
+    <UnitTest name="GetComments_AddPostAndComment_OneCommentExpected" storage="c:\users\marcin\desktop\blog\blog.dal.tests\bin\debug\blog.dal.tests.dll" id="e4e80f04-5d91-2d87-768c-10132d8bd0cb">
+      <Execution id="49b91044-569e-4d55-a260-b1e889cea3ab" />
+      <TestMethod codeBase="C:/Users/Marcin/Desktop/Blog/Blog.DAL.Tests/bin/Debug/Blog.DAL.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Blog.DAL.Tests.RepositoryTests, Blog.DAL.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetComments_AddPostAndComment_OneCommentExpected" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8eb3fc89-a933-3141-9fc4-10d31ead6588" executionId="b9c82d89-7fec-41b1-92d5-492ffddf0385" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a27eb2de-2f8f-8b86-c856-8e6bc5b885db" executionId="51a8c264-5100-420d-81dc-20137513bb03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76ad8f6a-4818-5920-1b84-c94b13a5c852" executionId="8851466c-3a2d-4242-b537-39c5739a8243" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4e80f04-5d91-2d87-768c-10132d8bd0cb" executionId="49b91044-569e-4d55-a260-b1e889cea3ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b9c82d89-7fec-41b1-92d5-492ffddf0385" testId="8eb3fc89-a933-3141-9fc4-10d31ead6588" testName="GetAllPost_OnePostInDb_ReturnOnePost" computerName="MARCIN-KOMPUTER" duration="00:00:03.9570064" startTime="2013-05-20T22:23:42.2487187+02:00" endTime="2013-05-20T22:23:47.6295781+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9c82d89-7fec-41b1-92d5-492ffddf0385">
+      <Output>
+        <DebugTrace>Constr
+SetUp
+Applying fixtures
+C:\Users\Marcin\Desktop\Blog\Blog.DAL.Tests\bin\Debug\Fixtures\posts.yml
+FixtureSetUp
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="51a8c264-5100-420d-81dc-20137513bb03" testId="a27eb2de-2f8f-8b86-c856-8e6bc5b885db" testName="GetAllPost_AddPost_TwoPostsExpected" computerName="MARCIN-KOMPUTER" duration="00:00:00.1504887" startTime="2013-05-20T22:23:47.6432500+02:00" endTime="2013-05-20T22:23:47.8141484+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="51a8c264-5100-420d-81dc-20137513bb03">
+      <Output>
+        <DebugTrace>Constr
+SetUp
+Applying fixtures
+C:\Users\Marcin\Desktop\Blog\Blog.DAL.Tests\bin\Debug\Fixtures\posts.yml
+FixtureSetUp
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8851466c-3a2d-4242-b537-39c5739a8243" testId="76ad8f6a-4818-5920-1b84-c94b13a5c852" testName="GetAllPost_AddPostWithoutAuthor_ValidatePost" computerName="MARCIN-KOMPUTER" duration="00:00:15.7265625" startTime="2013-05-20T22:23:47.8366093+02:00" endTime="2013-05-20T22:24:03.5631718+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8851466c-3a2d-4242-b537-39c5739a8243">
+    </UnitTestResult>
+    <UnitTestResult executionId="49b91044-569e-4d55-a260-b1e889cea3ab" testId="e4e80f04-5d91-2d87-768c-10132d8bd0cb" testName="GetComments_AddPostAndComment_OneCommentExpected" computerName="MARCIN-KOMPUTER" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49b91044-569e-4d55-a260-b1e889cea3ab">
+    </UnitTestResult>
+  </Results>
+</TestRun>
