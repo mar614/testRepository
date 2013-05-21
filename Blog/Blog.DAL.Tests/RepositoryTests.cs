@@ -18,7 +18,7 @@ namespace Blog.DAL.Tests
     {
         public BlogFixtures()
         {
-            SetYamlFiles("posts.yml");
+            SetYamlFiles("..\\posts.yml");
         }
     }
 

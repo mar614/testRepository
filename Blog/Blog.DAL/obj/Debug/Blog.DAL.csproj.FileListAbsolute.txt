@@ -16,6 +16,5 @@ D:\Studia\IIst\sem3\SAB\laborka\TeamCity\repozytorium\Blog\Blog.DAL\bin\Debug\Bl
 D:\Studia\IIst\sem3\SAB\laborka\TeamCity\repozytorium\Blog\Blog.DAL\bin\Debug\Blog.DAL.pdb
 D:\Studia\IIst\sem3\SAB\laborka\TeamCity\repozytorium\Blog\Blog.DAL\bin\Debug\EntityFramework.dll
 D:\Studia\IIst\sem3\SAB\laborka\TeamCity\repozytorium\Blog\Blog.DAL\bin\Debug\EntityFramework.xml
-D:\Studia\IIst\sem3\SAB\laborka\TeamCity\repozytorium\Blog\Blog.DAL\obj\Debug\Blog.DAL.csprojResolveAssemblyReference.cache
 D:\Studia\IIst\sem3\SAB\laborka\TeamCity\repozytorium\Blog\Blog.DAL\obj\Debug\Blog.DAL.dll
 D:\Studia\IIst\sem3\SAB\laborka\TeamCity\repozytorium\Blog\Blog.DAL\obj\Debug\Blog.DAL.pdb
