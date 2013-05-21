@@ -18,3 +18,4 @@ D:\Studia\IIst\sem3\SAB\laborka\TeamCity\repozytorium\Blog\Blog.DAL\bin\Debug\En
 D:\Studia\IIst\sem3\SAB\laborka\TeamCity\repozytorium\Blog\Blog.DAL\bin\Debug\EntityFramework.xml
 D:\Studia\IIst\sem3\SAB\laborka\TeamCity\repozytorium\Blog\Blog.DAL\obj\Debug\Blog.DAL.dll
 D:\Studia\IIst\sem3\SAB\laborka\TeamCity\repozytorium\Blog\Blog.DAL\obj\Debug\Blog.DAL.pdb
+D:\Studia\IIst\sem3\SAB\laborka\TeamCity\repozytorium\Blog\Blog.DAL\obj\Debug\Blog.DAL.csprojResolveAssemblyReference.cache
