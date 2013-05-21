@@ -14,11 +14,12 @@ using System.Collections.Generic;
 
 namespace Blog.DAL.Tests
 {
+    [DeploymentItem("Fixtures\\posts.yml", "Fixtures")]
     public class BlogFixtures : YamlDbFixture<BlogContext, BlogFixturesModel>
     {
         public BlogFixtures()
         {
-            SetYamlFiles("..\\posts.yml");
+            SetYamlFiles("posts.yml");
         }
     }
 
