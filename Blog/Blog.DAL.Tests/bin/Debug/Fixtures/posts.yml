@@ -1,9 +1,0 @@
-﻿Posts:
-  test-post:
-    Id: 1
-    Author: Marcin
-    Content: test, test, test...
-Comments:
-  test-comment:
-    PostId: 1
-    Content: How did it go?
