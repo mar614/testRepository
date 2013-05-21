@@ -14,7 +14,6 @@ using System.Collections.Generic;
 
 namespace Blog.DAL.Tests
 {
-    [DeploymentItem("Fixtures\\posts.yml", "Fixtures")]
     public class BlogFixtures : YamlDbFixture<BlogContext, BlogFixturesModel>
     {
         public BlogFixtures()
@@ -41,6 +40,7 @@ namespace Blog.DAL.Tests
         }
 
         [TestMethod]
+        [DeploymentItem("Fixtures\\posts.yml")]
         public void GetAllPost_OnePostInDb_ReturnOnePost()
         {
             // arrange
@@ -64,6 +64,7 @@ namespace Blog.DAL.Tests
         }
 
         [TestMethod]
+        [DeploymentItem("Fixtures\\posts.yml")]
         public void GetAllPost_AddPost_TwoPostsExpected()
         {
             // arrange
@@ -84,6 +85,7 @@ namespace Blog.DAL.Tests
 
         [TestMethod]
         [ExpectedException(typeof(InvalidDataException))]
+        [DeploymentItem("Fixtures\\posts.yml")]
         public void GetAllPost_AddPostWithoutAuthor_ValidatePost()
         {
             // arrange
@@ -103,6 +105,7 @@ namespace Blog.DAL.Tests
         }
     
         [TestMethod]
+        [DeploymentItem("Fixtures\\posts.yml")]
         public void GetComments_AddPostAndComment_OneCommentExpected()
         {
             // arrange
