@@ -18,6 +18,7 @@ namespace Blog.DAL.Tests
     {
         public BlogFixtures()
         {
+            this.SetYamlFolderName(System.Environment.CurrentDirectory);
             SetYamlFiles("posts.yml");
         }
     }
@@ -27,9 +28,7 @@ namespace Blog.DAL.Tests
         public FixtureTable<Post> Posts { get; set; }
         public FixtureTable<Comment> Comments { get; set; }
     }
-
-    //public class DbBaseTest<BlogFixtures>
-
+    
     [TestClass]
     public class RepositoryTests : DbBaseTest<BlogFixtures>
     {
